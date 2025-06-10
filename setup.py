@@ -30,7 +30,7 @@ if DISABLE_EXTENSION and REQUIRE_EXTENSION:
     )
 
 # when adding a cython module, also update the imports in _has_cython
-# it is tested in test_setup_defines_all_files
+# it is tested in test_setup_defines_all_file
 CYTHON_MODULES = (
     "engine._processors_cy",
     "engine._row_cy",
